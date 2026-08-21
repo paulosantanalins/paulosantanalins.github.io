@@ -4,3 +4,13 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
 .header-actions{display:flex;align-items:center;gap:22px}.language-link{display:grid;place-items:center;width:38px;height:38px;border:1px solid var(--line);font:700 11px "DM Mono";letter-spacing:.08em;transition:.2s}.language-link:hover{color:var(--navy);background:var(--cyan2);border-color:var(--cyan2)}
 @media(max-width:650px){.header-actions{gap:12px}.language-link{width:34px;height:34px}}
+
+/* Experiência profissional */
+.experience{background:var(--white)}.experience-head{display:flex;justify-content:space-between;align-items:end;gap:50px;padding-top:70px}.experience-head>p{max-width:410px;color:var(--muted);font-size:16px;line-height:1.75}.timeline{margin-top:75px;border-top:1px solid var(--line)}.timeline-item{display:grid;grid-template-columns:.28fr 1fr;gap:4vw;padding:40px 0;border-bottom:1px solid var(--line)}.period{padding-top:5px;color:#078fa0;font:500 12px "DM Mono";letter-spacing:.1em}.role{position:relative;padding-left:34px}.role:before{content:"";position:absolute;left:0;top:7px;width:9px;height:9px;border-radius:50%;background:#b7c4c7;box-shadow:0 0 0 6px #e7ece9}.current-role .role:before{background:#2fac73;box-shadow:0 0 0 6px #2fac7322}.role>span{color:var(--muted);font-size:13px}.role h3{margin:8px 0 13px;font:700 clamp(22px,2.4vw,34px) Manrope;letter-spacing:-.025em}.role p{max-width:810px;margin:0;color:var(--muted);font-size:15px;line-height:1.7}.tech{margin-top:18px;color:#087d8c;font:500 11px "DM Mono";letter-spacing:.06em}.early{opacity:.82}
+@media(max-width:800px){.experience-head{align-items:start;flex-direction:column}.timeline-item{grid-template-columns:1fr;gap:18px}.role{padding-left:27px}}
+
+/* Respiro para acentos em títulos grandes */
+h2{line-height:1.08}
+
+/* Evita colisão entre letras no título principal */
+.hero h1{letter-spacing:0}
